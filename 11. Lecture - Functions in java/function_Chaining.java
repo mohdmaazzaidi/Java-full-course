@@ -6,6 +6,9 @@ public class function_Chaining {
         A();
     }
 
+    
+    // function chaining.
+
     static void A(){
         B();
         System.out.println("bye!");

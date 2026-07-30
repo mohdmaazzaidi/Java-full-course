@@ -1,19 +1,22 @@
-public class recusion {
+public class recursion {
     public static void main(String[] args) {
-        // printCount(10);
+        printCount(10);
         // System.out.println( printFactorial(15));
         // reversCount(16);
         // System.out.println(sumCount(5));
         // printCount(12);
     }
 
-    // static void printCount(int num){
-    //     if(num == 0){
-    //         return;
-    //     }
-    //     printCount(num-1);
-    //     System.out.println(num);
-    // }
+    
+    // When a function call itself ia called recursion
+
+    static void printCount(int num){
+        if(num == 0){
+            return;
+        }
+        printCount(num-1);
+        System.out.println(num);
+    }
 
     // static long printFactorial(int num){
     //     if(num == 1){
