@@ -23,7 +23,4 @@ public class function_Chaining {
         System.out.println("Hello");
         System.out.println(name);
     }
-
-
-    
 }
